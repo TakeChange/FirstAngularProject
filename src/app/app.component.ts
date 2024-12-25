@@ -11,12 +11,12 @@ export class AppComponent {
   title = 'Pritish'; // gloable vari / member vari
 
   constructor(){
-    this.add();
+    // this.add();
   }
 
-  ngOnInit(){
-    this.title="school";
-  }
+  // ngOnInit(){
+  //   this.title="school";
+  // }
 
   add= ()=>{
     // let title="harshada"; // local vari
