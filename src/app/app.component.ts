@@ -8,5 +8,18 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'practice_project';
+  title = 'Pritish'; // gloable vari / member vari
+
+  constructor(){
+    this.add();
+  }
+
+  ngOnInit(){
+    this.title="school";
+  }
+
+  add= ()=>{
+    // let title="harshada"; // local vari
+    this.title = "Harshada";
+  }
 }
